@@ -5,7 +5,7 @@
 
 /* Colocando fonte interna */
 @font-face {
-  font-family: "Android";
+  font-family: "android";
   src: url("/fontes/idroid.otf") format("opentype");
   font-weight: normal;
 }
