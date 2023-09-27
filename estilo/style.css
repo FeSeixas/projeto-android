@@ -6,7 +6,7 @@
 /* Colocando fonte interna */
 @font-face {
   font-family: "android";
-  src: url("/fontes/idroid.otf") format("opentype");
+  src: url("../fontes/idroid.otf") format("opentype");
   font-weight: normal;
 }
 
@@ -29,8 +29,8 @@
   --cor5: #063d1e;
 
   --fonte-padrão: Arial, Verdana, Helvetica, sans-serif;
-  --fonte-destaque: 'Bebas Neue', sans-serif;
-  --fonte-android: 'android', cursive;
+  --fonte-destaque: 'Bebas Neue', cursive;
+  --fonte-android: 'Android', cursive;
 }
 
 /* Configurações globais para tirar margin e padding */
@@ -170,14 +170,14 @@ main a:hover {
 main h1 {
   color: var(--cor5);
 
-  font-family: var(--fonte-android);
+  font-family: var(--fonte-Android);
   font-weight: normal;
   font-size: 1.8em;
 }
 
 /* Configurações do h2 do main */
 main h2 {
-  font-family: var(--fonte-android);
+  font-family: var(--fonte-Android);
 
   color: var(--cor4);
   background-image: linear-gradient(to right, var(--cor1), transparent);
