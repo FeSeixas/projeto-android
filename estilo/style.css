@@ -115,6 +115,14 @@ nav a {
   transition-duration: 0.3s;
 }
 
+/* Adaptando nav para celulares */
+@media (max-width: 450px) {
+  nav a {
+    display: block;
+    margin: 5px 0; /* Adiciona um pequeno espaçamento entre os links */
+  }
+}
+
 /* Configuração ao passar mouse */
 nav a:hover {
   background-color: var(--cor3);
