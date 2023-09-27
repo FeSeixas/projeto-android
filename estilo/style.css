@@ -6,7 +6,7 @@
 /* Colocando fonte interna */
 @font-face {
   font-family: "android";
-  src: url("../fontes/idroid.otf") format("opentype");
+  src: url("/fontes/idroid.otf") format("opentype");
   font-weight: normal;
 }
 
@@ -170,14 +170,14 @@ main a:hover {
 main h1 {
   color: var(--cor5);
 
-  font-family: var(--fonte-Android);
+  font-family: var(--fonte-android);
   font-weight: normal;
   font-size: 1.8em;
 }
 
 /* Configurações do h2 do main */
 main h2 {
-  font-family: var(--fonte-Android);
+  font-family: var(--fonte-android);
 
   color: var(--cor4);
   background-image: linear-gradient(to right, var(--cor1), transparent);
